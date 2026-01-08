@@ -1,0 +1,6 @@
+  select*
+  from project2
+
+    select*,
+ ( quantity * unitprice)as totalrevenue
+ from project2
