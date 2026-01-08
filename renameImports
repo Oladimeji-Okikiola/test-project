@@ -1,0 +1,5 @@
+  select*
+  from project2
+
+  --rename unit_price
+  exec sp_rename 'project2.[unit-price]','unitprice', 'column'
